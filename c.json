@@ -13,6 +13,8 @@
 	// 	"description": "Log output to console"
 	// },
 
+	/* cd /Users/marshtupa/Library/Application\ Support/Code/User/snippets */
+
 	"TODO list": {
 		"prefix": "td",
 		"body": [
@@ -33,9 +35,17 @@
 	"ft_printf();": {
 		"prefix": "pf",
 		"body": [
-			"ft_printf(\"%$1\", $2);"
+			"ft_printf(\"%$1\\n\", $2);"
 		],
 		"description": "ft_printf() snippet"
+	},
+
+	"comment": {
+		"prefix": "///",
+		"body": [
+			"/*\n$1\n*/"
+		],
+		"description": "set comment"
 	},
 
 	"debug": {

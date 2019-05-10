@@ -54,5 +54,13 @@
 			"ft_printf(\"SOS\\n\");"
 		],
 		"description": "otsos"
+	},
+
+	"int i": {
+		"prefix": "i",
+		"body": [
+			"int\ti;\n\ni = 0;"
+		],
+		"description": "int i;"
 	}
 }
